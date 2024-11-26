@@ -39,6 +39,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.3.0'
+	implementation group: 'de.siegmar', name: 'logback-gelf', version: '5.0.1'
 }
 
 tasks.named('test') {
